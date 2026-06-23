@@ -1,4 +1,4 @@
-_G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/gag2"))()end)if s then break end wait(5)end
+
 _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
         ["Sell At"] = 80,
@@ -18,7 +18,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Dragon's Breath"] = 5,
             ["Moon Bloom"] = 5,
             ["Gold"] = 5,
-            ["Rainbow"] = 5,
+            ["Rainbow"] = 5,+
         },
     },
 
@@ -66,7 +66,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Legendary Sprinkler"] = 3,
             ["Super Sprinkler"] = 3,
         },
-        ["Buy Gear"] = {},
+        ["Buy Gear"] = {Super Sprinkler", "Legendary Sprinkler","Venom Spitter","Super Watering",},
     },
 
     ["Event Seeds"] = {
@@ -75,7 +75,7 @@ _G.GAGConfig = _G.GAGConfig or {
 
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"] = "kkndesapenari33",
+        ["Send To"] = "Guinnesse17",
         ["Send"] = {
             "Moon Bloom",
             "Dragon's Breath",
@@ -94,6 +94,8 @@ _G.GAGConfig = _G.GAGConfig or {
 
     ["Misc"] = {
         ["Auto Return To Garden"] = true,
+	["Auto Daily Deal"]       = true,    
+        ["Walk Speed"]            = 40,       
         ["Show Stats"] = true,
         ["Smart Travel"] = true,
     },
@@ -102,8 +104,6 @@ _G.GAGConfig = _G.GAGConfig or {
         ["FPS Cap"] = 5,
         ["Low Graphics"] = true,
         ["Remove Other Gardens"] = true,
-        ["Hide Crop Visuals"] = false,
+        ["Hide Crop Visuals"] = true,
     },
 }
-script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
-local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
