@@ -18,7 +18,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Dragon's Breath"] = 5,
             ["Moon Bloom"] = 5,
             ["Gold"] = 5,
-            ["Rainbow"] = 5,+
+            ["Rainbow"] = 5,
         },
     },
 
@@ -66,7 +66,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Legendary Sprinkler"] = 3,
             ["Super Sprinkler"] = 3,
         },
-        ["Buy Gear"] = {Super Sprinkler", "Legendary Sprinkler","Venom Spitter","Super Watering",},
+        ["Buy Gear"] = {},
     },
 
     ["Event Seeds"] = {
@@ -75,7 +75,7 @@ _G.GAGConfig = _G.GAGConfig or {
 
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"] = "Guinnesse17",
+        ["Send To"] = "kkndesapenari33",
         ["Send"] = {
             "Moon Bloom",
             "Dragon's Breath",
@@ -94,10 +94,11 @@ _G.GAGConfig = _G.GAGConfig or {
 
     ["Misc"] = {
         ["Auto Return To Garden"] = true,
-	["Auto Daily Deal"]       = true,    
-        ["Walk Speed"]            = 40,       
         ["Show Stats"] = true,
         ["Smart Travel"] = true,
+		["Auto Daily Deal"] = true,
+		["Walk Speed"]   = 40,
+		["Fast Travel"]  = true,
     },
 
     ["Performance"] = {
