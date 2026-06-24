@@ -62,9 +62,9 @@ _G.GAGConfig = _G.GAGConfig or {
         },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"] = {
-            ["Super Watering Can"] = 30,
-            ["Legendary Sprinkler"] = 30,
-            ["Super Sprinkler"] = 30,
+            ["Super Watering Can"] = 1,
+            ["Legendary Sprinkler"] = 1,
+            ["Super Sprinkler"] = 1,
         },
         ["Buy Gear"] = {},
     },
