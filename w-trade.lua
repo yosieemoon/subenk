@@ -62,9 +62,9 @@ _G.GAGConfig = _G.GAGConfig or {
         },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"] = {
-            ["Super Watering Can"] = 3,
-            ["Legendary Sprinkler"] = 3,
-            ["Super Sprinkler"] = 3,
+            ["Super Watering Can"] = 30,
+            ["Legendary Sprinkler"] = 30,
+            ["Super Sprinkler"] = 30,
         },
         ["Buy Gear"] = {},
     },
@@ -97,7 +97,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Show Stats"] = true,
         ["Smart Travel"] = true,
 		["Auto Daily Deal"] = true,
-		["Walk Speed"]   = 40,
+		["Walk Speed"]   = 35,
 		["Fast Travel"]  = true,
     },
 
