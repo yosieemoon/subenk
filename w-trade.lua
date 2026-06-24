@@ -13,18 +13,20 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Don't Plant"] = {
             ["Dragon's Breath"] = true, 
             ["Moon Bloom"] = true,
+			["Gold"] = true,
+            ["Rainbow"] = true,
         },
         ["Keep Seeds"] = {
-            ["Dragon's Breath"] = 5,
-            ["Moon Bloom"] = 5,
-            ["Gold"] = 5,
-            ["Rainbow"] = 5,
+            ["Dragon's Breath"] = 1,
+            ["Moon Bloom"] = 1,
+            ["Gold"] = 1,
+            ["Rainbow"] = 1,
         },
     },
 
     ["Money"] = {
         ["Keep Cash"] = 15000,
-        ["Auto Expand Plot"] = true,
+        ["Auto Expand Plot"] = false,
         ["Max Expansions"] = 3,
         ["Expand If Over"] = 1500000,
         ["Auto Replace Plants"] = true,
@@ -38,11 +40,11 @@ _G.GAGConfig = _G.GAGConfig or {
 
     ["Pets"] = {
         ["Buy"] = {
-            Unicorn = true,
-            GoldenDragonfly = true,
-            Deer = true,
-            Robin = true,
-            Raccoon = true
+            "Unicorn",
+            "GoldenDragonfly",
+            Deer = 6,
+            Robin = 5,
+            "Raccoon"
         },
         ["Equip"] = {
             Unicorn = 1,
@@ -98,11 +100,11 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Smart Travel"] = true,
 		["Auto Daily Deal"] = true,
 		["Walk Speed"]   = 35,
-		["Fast Travel"]  = true,
+		["Fast Travel"]  = false,
     },
 
     ["Performance"] = {
-        ["FPS Cap"] = 5,
+        ["FPS Cap"] = 10,
         ["Low Graphics"] = true,
         ["Remove Other Gardens"] = true,
         ["Hide Crop Visuals"] = true,
