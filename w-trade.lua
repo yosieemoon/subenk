@@ -1,111 +1,96 @@
 _G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/gag2"))()end)if s then break end wait(5)end
 _G.GAGConfig = _G.GAGConfig or {
+    _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
-        ["Sell At"] = 95,
-        ["Sell Every"] = 15,
-        ["Only Harvest"] = {},
+        ["Auto Harvest"]  = true,
+        ["Sell At"]       = 95,
+        ["Sell Every"]    = 40,
+        ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
     },
-
     ["Planting"] = {
-        ["Plant Plan"] = {},
-		["Only Plant"]  = {"Bamboo"},
-        ["Layout"] = "compact",
-        ["Don't Plant"] = {
-            ["Dragon's Breath"] = true, 
-            ["Moon Bloom"] = true,
-			["Gold"] = true,
-            ["Rainbow"] = true,
+        ["Auto Plant"]  = true,
+        ["Plant Plan"]  = {
+            ["Bamboo"] = 100,
+            ["Mushroom"] = 100,
         },
-        ["Keep Seeds"] = {
-            ["Dragon's Breath"] = 1,
-            ["Moon Bloom"] = 1,
-            ["Gold"] = 1,
-            ["Rainbow"] = 1,
-        },
-    },
 
+        ["Only Plant"]  = {},
+        ["Layout"]      = "compact",
+        ["Don't Plant"] = {
+            ["Dragon's Breath"] = true,
+            ["Moon Bloom"] = true,
+            ["Venom Spitter"] = true,
+            ["Venus Fly Trap"] = true,
+        },
+
+        ["Don't Buy"]   = {
+            ["Corn"] = true,
+            ["Cactus"] = true,
+            ["Pineapple"] = true,
+            ["Grape"] = true,
+            ["Coconut"] = true,
+            ["Banana"] = true,
+            ["Mango"] = true,
+        },
+        ["Keep Seeds"]  = {},
+    },
     ["Money"] = {
-        ["Keep Cash"] = 50000,
-        ["Auto Expand Plot"] = true,
-        ["Max Expansions"] = 3,
-        ["Expand If Over"] = 500000,
+        ["Keep Cash"]           = 50000,
+        ["Auto Expand Plot"]    = true,
+        ["Max Expansions"]      = 10,
+        ["Expand If Over"]      = 1500000,
         ["Auto Replace Plants"] = true,
     },
-
     ["Never Sell"] = {
         ["By Mutation"] = {},
-        ["By Fruit"] = {},
-        ["Exact"] = {},
+        ["By Fruit"]    = {},
+        ["Exact"]       = {},
     },
-
     ["Pets"] = {
-        ["Buy"] = {
-            "Unicorn",
-            "GoldenDragonfly",
-            Deer = 6,
-            "Raccoon"
-        },
-        ["Equip"] = {
-             Deer = 6
-        },
+        ["Buy"]            = { "Unicorn", "GoldenDragonfly", "Deer" },
+        ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
-        ["Max Pet Slots"] = 6,
+        ["Max Pet Slots"]  = 6,
     },
-
     ["Gear"] = {
-        ["Auto Buy"] = true,
-        ["Keep Cash"] = 50000,
-        ["Sprinkler Coverage"] = "concentrate",
-        ["Place Sprinklers"] = {
-            ["Rare Sprinkler"] = 4
-        },
+        ["Auto Buy"]             = true,
+        ["Keep Cash"]            = 15000,
+        ["Sprinkler Coverage"]   = "concentrate",
+        ["Place Sprinklers"]     = { ["best"] = 4 },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
-        ["Keep Gear"] = {
-            ["Super Watering Can"] = 1,
-            ["Legendary Sprinkler"] = 1,
-            ["Super Sprinkler"] = 1,
-        },
-        ["Buy Gear"] = {"Super Sprinkler", "Legendary Sprinkler","Super Watering Can"},
+        ["Keep Gear"]            = { ["Trowel"] = 1 },
+        ["Buy Gear"]             = { "Super Sprinkler", "Super Watering Can" },
     },
-
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
     },
-
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"] = "kkndesapenari33",
-        ["Send"] = {
-            "Moon Bloom",
-            "Dragon's Breath",
-            "Gold",
-            "Rainbow",
-
-            "GoldenDragonfly",
-            "Unicorn",
-            "Raccoon",
-
-            "Super Sprinkler",
-            "Super Watering Can",
-            "Legendary Sprinkler",
+        ["Send To"]    = "soooyoooo0",
+        ["Send"]       = {
+            "Moon Bloom", "Dragon's Breath", "Venus Fly Trap", "Gold", "Rainbow", "Venom Spitter",
+            "GoldenDragonfly", "Unicorn", "Raccoon",
+            "Super Sprinkler", "Super Watering Can",
+        },
     },
-},
-
     ["Misc"] = {
         ["Auto Return To Garden"] = true,
-        ["Show Stats"] = true,
-        ["Smart Travel"] = true,
-		["Auto Daily Deal"] = true,
-		["Walk Speed"]   = 35,
-		["Fast Travel"]  = false,
+        ["Show Stats"]            = true,
+        ["Smart Travel"]          = true,
+        ["Auto Daily Deal"]       = true,
+        ["Walk Speed"]            = 35,
+        ["Fast Travel"]           = false,
     },
-
     ["Performance"] = {
-        ["FPS Cap"] = 10,
-        ["Low Graphics"] = true,
+        ["FPS Cap"]              = 5,
+        ["Low Graphics"]         = true,
         ["Remove Other Gardens"] = true,
-        ["Hide Crop Visuals"] = true,
+        ["Hide Crop Visuals"]    = true,
+    },
+    ["Debug"] = {
+        ["Log To File"] = true,
+        ["Console"]     = true,
     },
 }
 script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
