@@ -93,6 +93,3 @@ _G.GAGConfig = _G.GAGConfig or {
 }
 script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
-
-getgenv().NovaUUID="a9a7a25b-a6f3-4683-9e0f-f32e54467a2e";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/dc7a9b6f3e24e84b50cd6baff119c7c6.lua"))()
