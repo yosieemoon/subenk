@@ -1,4 +1,5 @@
-_G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/gag2"))()end)if s then break end wait(5)end
+getgenv().NovaUUID="a9a7a25b-a6f3-4683-9e0f-f32e54467a2e";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/dc7a9b6f3e24e84b50cd6baff119c7c6.lua"))()
 _G.GAGConfig = _G.GAGConfig or {
     _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
