@@ -1,14 +1,15 @@
 _G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/gag2"))()end)if s then break end wait(5)end
 _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
-        ["Sell At"] = 80,
-        ["Sell Every"] = 30,
+        ["Sell At"] = 95,
+        ["Sell Every"] = 15,
         ["Only Harvest"] = {},
         ["Don't Harvest"] = {},
     },
 
     ["Planting"] = {
         ["Plant Plan"] = {},
+		["Only Plant"]  = {"Bamboo"},
         ["Layout"] = "compact",
         ["Don't Plant"] = {
             ["Dragon's Breath"] = true, 
@@ -25,10 +26,10 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Money"] = {
-        ["Keep Cash"] = 15000,
-        ["Auto Expand Plot"] = false,
+        ["Keep Cash"] = 50000,
+        ["Auto Expand Plot"] = true,
         ["Max Expansions"] = 3,
-        ["Expand If Over"] = 1500000,
+        ["Expand If Over"] = 500000,
         ["Auto Replace Plants"] = true,
     },
 
@@ -43,13 +44,10 @@ _G.GAGConfig = _G.GAGConfig or {
             "Unicorn",
             "GoldenDragonfly",
             Deer = 6,
-            Robin = 5,
             "Raccoon"
         },
         ["Equip"] = {
-            Unicorn = 1,
-            GoldenDragonfly = 1,
-            Deer = 4
+             Deer = 6
         },
         ["Auto Buy Slots"] = true,
         ["Max Pet Slots"] = 6,
@@ -57,10 +55,10 @@ _G.GAGConfig = _G.GAGConfig or {
 
     ["Gear"] = {
         ["Auto Buy"] = true,
-        ["Keep Cash"] = 15000,
+        ["Keep Cash"] = 50000,
         ["Sprinkler Coverage"] = "concentrate",
         ["Place Sprinklers"] = {
-            ["best"] = 4
+            ["Rare Sprinkler"] = 4
         },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"] = {
@@ -68,7 +66,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Legendary Sprinkler"] = 1,
             ["Super Sprinkler"] = 1,
         },
-        ["Buy Gear"] = {},
+        ["Buy Gear"] = {"Super Sprinkler", "Legendary Sprinkler","Super Watering Can"},
     },
 
     ["Event Seeds"] = {
