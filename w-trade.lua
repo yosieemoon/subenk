@@ -34,7 +34,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Keep Seeds"]  = {},
     },
     ["Money"] = {
-        ["Keep Cash"]           = 5000,
+        ["Keep Cash"]           = 50000,
         ["Auto Expand Plot"]    = true,
         ["Max Expansions"]      = 10,
         ["Expand If Over"]      = 1500000,
@@ -53,7 +53,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Gear"] = {
         ["Auto Buy"]             = true,
-        ["Keep Cash"]            = 15000,
+        ["Keep Cash"]            = 50000,
         ["Sprinkler Coverage"]   = "concentrate",
         ["Place Sprinklers"]     = { ["best"] = 4 },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
@@ -65,7 +65,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "Guinnesse17",
+        ["Send To"]    = "soooyoooo0",
         ["Send"]       = {
             "Moon Bloom", "Dragon's Breath", "Venus Fly Trap", "Gold", "Rainbow", "Venom Spitter",
             "GoldenDragonfly", "Unicorn", "Raccoon",
