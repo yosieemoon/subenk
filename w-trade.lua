@@ -79,6 +79,12 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Daily Deal"]       = true,
         ["Walk Speed"]            = 35,
         ["Fast Travel"]           = false,
+
+        
+    },
+    ["Friends"] = {
+        ["Auto Accept"] = true,              -- true / false  (accept incoming friend requests from players in the server)
+        ["Auto Send"]   = true,              -- true / false  (send friend requests to players in the server — some accounts must be friends to mail/trade)
     },
     ["Performance"] = {
         ["FPS Cap"]              = 5,
