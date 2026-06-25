@@ -1,5 +1,4 @@
 _G.GAGConfig = _G.GAGConfig or {
-    _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
         ["Auto Harvest"]  = true,
         ["Sell At"]       = 95,
@@ -35,7 +34,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Keep Seeds"]  = {},
     },
     ["Money"] = {
-        ["Keep Cash"]           = 50000,
+        ["Keep Cash"]           = 5000,
         ["Auto Expand Plot"]    = true,
         ["Max Expansions"]      = 10,
         ["Expand If Over"]      = 1500000,
@@ -66,7 +65,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "soooyoooo0",
+        ["Send To"]    = "Guinnesse17",
         ["Send"]       = {
             "Moon Bloom", "Dragon's Breath", "Venus Fly Trap", "Gold", "Rainbow", "Venom Spitter",
             "GoldenDragonfly", "Unicorn", "Raccoon",
@@ -94,5 +93,6 @@ _G.GAGConfig = _G.GAGConfig or {
 }
 script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
+
 getgenv().NovaUUID="a9a7a25b-a6f3-4683-9e0f-f32e54467a2e";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/dc7a9b6f3e24e84b50cd6baff119c7c6.lua"))()
