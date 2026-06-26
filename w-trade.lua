@@ -69,7 +69,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send"]       = {
             "Moon Bloom", "Dragon's Breath", "Venus Fly Trap", "Gold", "Rainbow", "Venom Spitter",
             "GoldenDragonfly", "Unicorn", "Raccoon",
-            "Super Sprinkler", "Super Watering Can",
+            "Super Sprinkler", "Super Watering Can","Rare Seed Pack","Legendary Seed Pack","Common Egg","Epic Egg",
         },
     },
     ["Misc"] = {
