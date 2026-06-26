@@ -8,11 +8,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
-        ["Plant Plan"]  = {
-            ["Bamboo"] = 100,
-            ["Mushroom"] = 100,
-        },
-
+        ["Plant Plan"]  = {},
         ["Only Plant"]  = {},
         ["Layout"]      = "compact",
         ["Don't Plant"] = {
@@ -22,19 +18,11 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Venus Fly Trap"] = true,
         },
 
-        ["Don't Buy"]   = {
-            ["Corn"] = true,
-            ["Cactus"] = true,
-            ["Pineapple"] = true,
-            ["Grape"] = true,
-            ["Coconut"] = true,
-            ["Banana"] = true,
-            ["Mango"] = true,
-        },
+        ["Don't Buy"]   = {},
         ["Keep Seeds"]  = {},
     },
     ["Money"] = {
-        ["Keep Cash"]           = 50000,
+        ["Keep Cash"]           = 15000,
         ["Auto Expand Plot"]    = true,
         ["Max Expansions"]      = 10,
         ["Expand If Over"]      = 1500000,
@@ -58,7 +46,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Place Sprinklers"]     = { ["best"] = 4 },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Super Sprinkler", "Super Watering Can" },
+        ["Buy Gear"]             = { "Super Watering Can" },
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
@@ -83,8 +71,8 @@ _G.GAGConfig = _G.GAGConfig or {
         
     },
     ["Friends"] = {
-        ["Auto Accept"] = true,              -- true / false  (accept incoming friend requests from players in the server)
-        ["Auto Send"]   = true,              -- true / false  (send friend requests to players in the server — some accounts must be friends to mail/trade)
+        ["Auto Accept"] = true,              
+        ["Auto Send"]   = true,           
     },
     ["Performance"] = {
         ["FPS Cap"]              = 5,
