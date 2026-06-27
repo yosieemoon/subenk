@@ -24,7 +24,7 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Money"] = {
         ["Keep Cash"]           = 15000,
         ["Auto Expand Plot"]    = true,
-        ["Max Expansions"]      = 10,
+        ["Max Expansions"]      = 3,
         ["Expand If Over"]      = 1500000,
         ["Auto Replace Plants"] = true,
     },
@@ -75,7 +75,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Send"]   = true,           
     },
     ["Performance"] = {
-        ["FPS Cap"]              = 15,
+        ["FPS Cap"]              = 5,
         ["Low Graphics"]         = true,
         ["Remove Other Gardens"] = true,
         ["Hide Crop Visuals"]    = true,
