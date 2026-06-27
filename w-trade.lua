@@ -71,8 +71,8 @@ _G.GAGConfig = _G.GAGConfig or {
         
     },
     ["Friends"] = {
-        ["Auto Accept"] = true,              
-        ["Auto Send"]   = true,           
+        ["Auto Accept"] = false,              
+        ["Auto Send"]   = false,           
     },
     ["Performance"] = {
         ["FPS Cap"]              = 5,
