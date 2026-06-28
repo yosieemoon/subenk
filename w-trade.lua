@@ -5,17 +5,21 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sell Every"]    = 40,
         ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
+        ["Wait For Mutation"] = { "Mushroom", "Bamboo" }
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
-        ["Plant Plan"]  = {},
+        ["Plant Plan"]  = {
+            ["Gold"] = 150,
+            ["Rainbow"] = 150,
+        },
+
         ["Only Plant"]  = {},
         ["Layout"]      = "compact",
         ["Don't Plant"] = {
             ["Dragon's Breath"] = true,
             ["Moon Bloom"] = true,
             ["Venom Spitter"] = true,
-            ["Venus Fly Trap"] = true,
         },
 
         ["Don't Buy"]   = {},
@@ -24,9 +28,9 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Money"] = {
         ["Keep Cash"]           = 15000,
         ["Auto Expand Plot"]    = true,
-        ["Max Expansions"]      = 3,
+        ["Max Expansions"]      = 5,
         ["Expand If Over"]      = 1500000,
-        ["Auto Replace Plants"] = true,
+        ["Auto Replace Plants"] = false,
     },
     ["Never Sell"] = {
         ["By Mutation"] = {},
@@ -41,23 +45,23 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Gear"] = {
         ["Auto Buy"]             = true,
-        ["Keep Cash"]            = 50000,
+        ["Keep Cash"]            = 15000,
         ["Sprinkler Coverage"]   = "concentrate",
-        ["Place Sprinklers"]     = { ["best"] = 4 },
-        ["Best Sprinkler Up To"] = "Rare Sprinkler",
+        ["Place Sprinklers"]     = {},
+        ["Best Sprinkler Up To"] = {},
         ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Super Watering Can","Legendary Sprinkler" },
+        ["Buy Gear"]             = { "Uncommon Sprinkler", "Super Watering Can" },
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "kkndesapenari33",
+        ["Send To"]    = "Soooyoooo0",
         ["Send"]       = {
-            "Moon Bloom", "Dragon's Breath", "Venus Fly Trap", "Gold", "Rainbow", "Venom Spitter",
+            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega",
             "GoldenDragonfly", "Unicorn", "Raccoon",
-            "Super Sprinkler", "Super Watering Can","Rare Seed Pack","Legendary Seed Pack","Common Egg","Epic Egg","Legendary Sprinkler",
+            "Uncommon Sprinkler", "Legendary Sprinkler", "Super Watering Can",
         },
     },
     ["Misc"] = {
@@ -66,13 +70,13 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Smart Travel"]          = true,
         ["Auto Daily Deal"]       = true,
         ["Walk Speed"]            = 35,
-        ["Fast Travel"]           = false,
-
-        
+        ["Slide Speed"]           = 35,
+        ["Fast Travel"]           = true,
+        ["Teleport"]              = false,
     },
     ["Friends"] = {
-        ["Auto Accept"] = false,              
-        ["Auto Send"]   = false,           
+        ["Auto Accept"] = false,
+        ["Auto Send"]   = false,
     },
     ["Performance"] = {
         ["FPS Cap"]              = 5,
