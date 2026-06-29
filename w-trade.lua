@@ -5,7 +5,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sell Every"]    = 40,
         ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
-        ["Wait For Mutation"] = { "Mushroom", "Bamboo" }
+        ["Wait For Mutation"] = {},
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
