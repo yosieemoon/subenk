@@ -5,7 +5,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sell Every"]    = 40,
         ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
-        ["Wait For Mutation"] = {},
+        ["Wait For Mutation"] = { "Mushroom", "Bamboo" }
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
@@ -50,7 +50,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sprinkler Coverage"]   = "concentrate",
         ["Place Sprinklers"]     = {["best"] = 4},
         ["Best Sprinkler Up To"] = {"Rare Sprinkler"},
-        ["Keep Gear"]            = {["Supersize Mushroom"= 1]},
+        ["Keep Gear"]            = { ["Trowel"] = 1 },
         ["Buy Gear"]             = { "Super Watering Can", "Legendary Sprinkler" },
     },
     ["Event Seeds"] = {
