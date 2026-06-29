@@ -48,7 +48,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Keep Cash"]            = 50000,
         ["Sprinkler Coverage"]   = "concentrate",
         ["Place Sprinklers"]     = {["best"] = 4},
-        ["Best Sprinkler Up To"] = {Rare Sprinkler},
+        ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"]            = { ["Trowel"] = 1 },
         ["Buy Gear"]             = { "Super Watering Can", "Legendary Sprinkler" },
     },
