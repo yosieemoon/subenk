@@ -47,8 +47,8 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Buy"]             = true,
         ["Keep Cash"]            = 50000,
         ["Sprinkler Coverage"]   = "concentrate",
-        ["Place Sprinklers"]     = {},
-        ["Best Sprinkler Up To"] = {},
+        ["Place Sprinklers"]     = {["best"] = 4},
+        ["Best Sprinkler Up To"] = {Rare Sprinkler},
         ["Keep Gear"]            = { ["Trowel"] = 1 },
         ["Buy Gear"]             = { "Super Watering Can", "Legendary Sprinkler" },
     },
@@ -61,7 +61,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send"]       = {
             "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega",
             "GoldenDragonfly", "Unicorn", "Raccoon",
-            "Uncommon Sprinkler", "Legendary Sprinkler", "Super Watering Can",
+             "Legendary Sprinkler", "Super Watering Can",
         },
     },
     ["Misc"] = {
