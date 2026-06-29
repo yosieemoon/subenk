@@ -56,9 +56,9 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Claim"] = true,
         ["Send To"]    = "bulanlainnya0910",
         ["Send"]       = {
-            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega",
-            "GoldenDragonfly", "Unicorn", "Raccoon",
-             "Legendary Sprinkler", "Super Watering Can","Super Sprinkler",
+            "Moon Bloom", "Dragon's Breath", { Item = "Gold", Count = 3 }, { Item = "Rainbow", Count = 2 },
+            "Deer", "GoldenDragonfly", "Unicorn", "Robin", "Raccoon", "Turtle",
+            "Super Sprinkler", "Legendary Sprinkler", "Super Watering Can",
         },
     },
     ["Misc"] = {
