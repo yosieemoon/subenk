@@ -15,7 +15,6 @@ _G.GAGConfig = _G.GAGConfig or {
         },
 
         ["Only Plant"]  = {},
-        ["Minimum Seed"] = "Bamboo",
         ["Layout"]      = "compact",
         ["Don't Plant"] = {
             ["Dragon's Breath"] = true,
@@ -31,7 +30,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Expand Plot"]    = true,
         ["Max Expansions"]      = 5,
         ["Expand If Over"]      = 1500000,
-        ["Auto Replace Plants"] = true,
+        ["Auto Replace Plants"] = false,
     },
     ["Never Sell"] = {
         ["By Mutation"] = {},
@@ -48,8 +47,8 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Buy"]             = true,
         ["Keep Cash"]            = 50000,
         ["Sprinkler Coverage"]   = "concentrate",
-        ["Place Sprinklers"]     = {["best"] = 4},
-        ["Best Sprinkler Up To"] = {"Rare Sprinkler"},
+        ["Place Sprinklers"]     = {},
+        ["Best Sprinkler Up To"] = {},
         ["Keep Gear"]            = { ["Trowel"] = 1 },
         ["Buy Gear"]             = { "Super Watering Can", "Legendary Sprinkler" },
     },
@@ -62,7 +61,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send"]       = {
             "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega",
             "GoldenDragonfly", "Unicorn", "Raccoon",
-            "Legendary Sprinkler", "Super Watering Can",
+            "Uncommon Sprinkler", "Legendary Sprinkler", "Super Watering Can",
         },
     },
     ["Misc"] = {
