@@ -15,7 +15,7 @@ _G.GAGConfig = _G.GAGConfig or {
         },
 
         ["Only Plant"]  = {},
-        ["Minimum Seed"] = "Bamboo"
+        ["Minimum Seed"] = "Bamboo",
         ["Layout"]      = "compact",
         ["Don't Plant"] = {
             ["Dragon's Breath"] = true,
@@ -50,7 +50,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sprinkler Coverage"]   = "concentrate",
         ["Place Sprinklers"]     = {["best"] = 4},
         ["Best Sprinkler Up To"] = {"Rare Sprinkler"},
-        ["Keep Gear"]            = {""},
+        ["Keep Gear"]            = {},
         ["Buy Gear"]             = { "Super Watering Can", "Legendary Sprinkler" },
     },
     ["Event Seeds"] = {
