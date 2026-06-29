@@ -13,12 +13,7 @@ _G.GAGConfig = _G.GAGConfig or {
 
         ["Only Plant"]  = {},
         ["Layout"]      = "compact",
-        ["Don't Plant"] = {
-            ["Dragon's Breath"] = true,
-            ["Moon Bloom"] = true,
-            ["Venom Spitter"] = true,
-        },
-
+        ["Don't Plant"] = {"Gold", "Rainbow", "Mega", "Moon Bloom", "Dragon's Breat"},
         ["Don't Buy"]   = {},
         ["Keep Seeds"]  = {},
     },
