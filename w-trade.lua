@@ -31,7 +31,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Pets"] = {
         ["Buy"] = {
-             ["Deer"] = 6,
+             ["Unicorn"] = 6,
              ["Raccoon"] = 1,
             },
         ["Equip"]          = { Deer = 6 },
