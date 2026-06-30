@@ -9,11 +9,20 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
-        ["Plant Plan"]  = {},
+        ["Plant Plan"]  = {
+            ["Gold"] = 300,
+            ["Rainbow"] = 300,
+        },
 
         ["Only Plant"]  = {},
         ["Layout"]      = "compact",
-        ["Don't Plant"] = {"Gold", "Rainbow", "Mega", "Moon Bloom", "Dragon's Breat"},
+        ["Don't Plant"] = {
+            ["Dragon's Breath"] = true,
+            ["Hypno Bloom"] = true,
+            ["Moon Bloom"] = true,
+            ["Venom Spitter"] = true,
+        },
+
         ["Don't Buy"]   = {},
         ["Keep Seeds"]  = {},
     },
@@ -30,33 +39,33 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},
     },
     ["Pets"] = {
-        ["Buy"] = {
-             ["Unicorn"] = 6,
+         ["Buy"] = {
+             ["Deer"] = 6,
              ["Raccoon"] = 1,
-            },
+    },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
         ["Max Pet Slots"]  = 6,
     },
     ["Gear"] = {
         ["Auto Buy"]             = true,
-        ["Keep Cash"]            = 50000,
-        ["Sprinkler Coverage"]   = "concentrate",
-        ["Place Sprinklers"]     = {},
-        ["Best Sprinkler Up To"] = "",
+        ["Keep Cash"]            = 15000,
+        ["Sprinkler Coverage"]   = "spread",
+        ["Place Sprinklers"]     = { ["Best"] = 4 },
+        ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Super Watering Can" , "Super Sprinkler" },
+        ["Buy Gear"]             = { "Super Watering Can", "Super Sprinkler" },
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "Tracemoney172",
+        ["Send To"]    = "Guinnesse17",
         ["Send"]       = {
-            "Moon Bloom", "Dragon's Breath", { Item = "Gold", Count = 2 }, "rainbow",
-            "GoldenDragonfly", "Unicorn", "Robin", "Raccoon",
-            "Super Sprinkler", "Legendary Sprinkler", "Super Watering Can", "Mega",
+            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
+            "Raccoon",
+            "Super Watering Can", "Super Sprinkler"
         },
     },
     ["Misc"] = {
