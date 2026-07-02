@@ -18,6 +18,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Hypno Bloom"] = true,
             ["Moon Bloom"] = true,
             ["Venom Spitter"] = true,
+            ["Carrot"]= true,
         },
 
         ["Don't Buy"]   = {},
@@ -62,7 +63,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send"]       = {
             "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
             "Raccoon",
-            "Super Watering Can", "Super Sprinkler"
+            "Super Watering Can", "Super Sprinkler", { Item = "Carrot", Count = 20 }
         },
     },
     ["Misc"] = {
