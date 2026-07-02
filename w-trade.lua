@@ -9,7 +9,10 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
-        ["Plant Plan"]  = {},
+        ["Plant Plan"]  = {
+            ["Gold"] = 200,
+            ["Rainbow"] = 200,
+        },
 
         ["Only Plant"]  = {},
         ["Layout"]      = "compact",
@@ -18,7 +21,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Hypno Bloom"] = true,
             ["Moon Bloom"] = true,
             ["Venom Spitter"] = true,
-            ["Carrot"]= true,
+            ["Carrot"] = true,
         },
 
         ["Don't Buy"]   = {},
@@ -29,11 +32,12 @@ _G.GAGConfig = _G.GAGConfig or {
             "Bamboo", 
         },
         ["Shovel Up To"] = "Uncommon",
+        ["Buy Seeds"]    = { Carrot = 100 },
     },
     ["Money"] = {
         ["Keep Cash"]           = 15000,
         ["Auto Expand Plot"]    = true,
-        ["Max Expansions"]      = 3,
+        ["Max Expansions"]      = 5,
         ["Expand If Over"]      = 1500000,
         ["Auto Replace Plants"] = false,
     },
@@ -43,9 +47,9 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},
     },
     ["Pets"] = {
-         ["Buy"] = {
+        ["Buy"] = {
              ["Deer"] = 6,
-             ["Raccoon"] = 1,
+             "Raccoon",
     },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
@@ -55,7 +59,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Buy"]             = true,
         ["Keep Cash"]            = 15000,
         ["Sprinkler Coverage"]   = "spread",
-        ["Place Sprinklers"]     = { ["Best"] = 4 },
+        ["Place Sprinklers"]     = { ["Best"] = 6 },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"]            = { ["Trowel"] = 1 },
         ["Buy Gear"]             = { "Super Watering Can", "Super Sprinkler" },
@@ -65,11 +69,11 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "soooyoooo0",
+        ["Send To"]    = "Soooyoooo0",
         ["Send"]       = {
-            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",{ Item = "Carrot", Count = 20 },
+            { Item = "Carrot", Count = 100 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
             "Raccoon",
-            "Super Watering Can", "Super Sprinkler",
+            "Super Watering Can", "Super Sprinkler"
         },
     },
     ["Misc"] = {
