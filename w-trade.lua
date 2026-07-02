@@ -23,11 +23,17 @@ _G.GAGConfig = _G.GAGConfig or {
 
         ["Don't Buy"]   = {},
         ["Keep Seeds"]  = {},
+        ["Plant Limit"] = {},
+        ["Never Shovel"] = { 
+            "Mushroom",
+            "Bamboo", 
+        },
+        ["Shovel Up To"] = "Uncommon",
     },
     ["Money"] = {
         ["Keep Cash"]           = 15000,
         ["Auto Expand Plot"]    = true,
-        ["Max Expansions"]      = 5,
+        ["Max Expansions"]      = 3,
         ["Expand If Over"]      = 1500000,
         ["Auto Replace Plants"] = false,
     },
@@ -61,9 +67,9 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Claim"] = true,
         ["Send To"]    = "kkndesapenari33",
         ["Send"]       = {
-            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
+            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",{ Item = "Carrot", Count = 20 },
             "Raccoon",
-            "Super Watering Can", "Super Sprinkler", { Item = "Carrot", Count = 20 }
+            "Super Watering Can", "Super Sprinkler",
         },
     },
     ["Misc"] = {
