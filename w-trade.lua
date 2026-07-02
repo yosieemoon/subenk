@@ -9,10 +9,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
-        ["Plant Plan"]  = {
-            ["Gold"] = 300,
-            ["Rainbow"] = 300,
-        },
+        ["Plant Plan"]  = {},
 
         ["Only Plant"]  = {},
         ["Layout"]      = "compact",
@@ -31,7 +28,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Expand Plot"]    = true,
         ["Max Expansions"]      = 5,
         ["Expand If Over"]      = 1500000,
-        ["Auto Replace Plants"] = true,
+        ["Auto Replace Plants"] = false,
     },
     ["Never Sell"] = {
         ["By Mutation"] = {},
