@@ -69,7 +69,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "Soooyoooo0",
+        ["Send To"]    = "diorgacha77773",
         ["Send"]       = {
             { Item = "Carrot", Count = 100 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
             "Raccoon",
