@@ -32,7 +32,7 @@ _G.GAGConfig = _G.GAGConfig or {
             "Bamboo", 
         },
         ["Shovel Up To"] = "Uncommon",
-        ["Buy Seeds"]    = { Carrot = 100 },
+        ["Buy Seeds"]    = { "Rocket Pop" = 100 },
     },
     ["Money"] = {
         ["Keep Cash"]           = 15000,
@@ -69,9 +69,9 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "diorgacha77773",
+        ["Send To"]    = "phonkshc26",
         ["Send"]       = {
-            { Item = "Carrot", Count = 100 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
+            { Item = "Rocket Pop", Count = 10 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
             "Raccoon",
             "Super Watering Can", "Super Sprinkler"
         },
@@ -83,8 +83,8 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Daily Deal"]       = true,
         ["Walk Speed"]            = 35,
         ["Slide Speed"]           = 35,
-        ["Fast Travel"]           = true,
-        ["Teleport"]              = false,
+        ["Fast Travel"]           = false,
+        ["Teleport"]              = true,
     },
     ["Friends"] = {
         ["Auto Accept"] = false,
