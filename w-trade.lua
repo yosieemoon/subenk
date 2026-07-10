@@ -1,7 +1,7 @@
 _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
         ["Auto Harvest"]  = true,
-        ["Sell At"]       = 85,
+        ["Sell At"]       = 95,
         ["Sell Every"]    = 40,
         ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
@@ -18,6 +18,7 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Venus Fly Trap"] = 3,
             ["Pomegranate"] = 3,
             ["Poison Apple"] = 3,},
+        
         ["Only Plant"]  = {},
         ["Minimum Seed"] = "",
         ["Layout"]      = "compact",
@@ -84,10 +85,10 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Show Console"]          = false,
         ["Smart Travel"]          = true,
         ["Auto Daily Deal"]       = true,
-        ["Walk Speed"]            = 0,
-        ["Slide Speed"]           = 30,
-        ["Fast Travel"]           = false,
-        ["Teleport"]              = true,
+        ["Walk Speed"]            = 35,
+        ["Slide Speed"]           = 35,
+        ["Fast Travel"]           = true,
+        ["Teleport"]              = false,
     },
     ["Friends"] = {
         ["Auto Accept"] = false,
