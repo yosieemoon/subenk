@@ -66,7 +66,7 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Mail"] = {
         ["Auto Claim"] = true,
         ["Auto Accept Gift"] = true,
-        ["Send To"]    = "phonkshc26",
+        ["Send To"]    = "phonkshc295",
 
         ["Send Every"] = 0,
         ["Send"]       = {
