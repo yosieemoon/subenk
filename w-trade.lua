@@ -1,11 +1,11 @@
 _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
         ["Auto Harvest"]  = true,
-        ["Sell At"]       = 95,
+        ["Sell At"]       = 85,
         ["Sell Every"]    = 40,
         ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
-        ["Wait For Mutation"] = { "Mushroom", "Bamboo", "Sunflower" }
+        ["Wait For Mutation"] = {"Mushroom", "Bamboo", "Sunflower"},
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
@@ -17,33 +17,25 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Sunflower"] = 50,
             ["Venus Fly Trap"] = 3,
             ["Pomegranate"] = 3,
-            ["Poison Apple"] = 3,
-        },
-
+            ["Poison Apple"] = 3,},
         ["Only Plant"]  = {},
+        ["Minimum Seed"] = "",
         ["Layout"]      = "compact",
-        ["Don't Plant"] = {
-            ["Dragon's Breath"] = true,
-            ["Hypno Bloom"] = true,
-            ["Moon Bloom"] = true,
-        },
-
+        ["Don't Plant"] = {"Dragon's Breath", "Hypno Bloom", "Moon Bloom"},
         ["Don't Buy"]   = {},
         ["Keep Seeds"]  = {},
-        ["Plant Limit"] = {},
-        ["Never Shovel"] = { 
-            "Mushroom",
-            "Bamboo", 
-        },
-        ["Shovel Up To"] = "Common",
-        ["Buy Seeds"]    = { "Rocket Pop" = 100 },
+        ["Plant Limit"] = 0,
+        ["Never Shovel"] = {"Mushroom",
+            "Bamboo"},
+        ["Shovel Up To"] = "common",
+        ["Buy Seeds"]    = {["Rocket Pop"] = 50},
     },
     ["Money"] = {
-        ["Keep Cash"]           = 15000,
-        ["Auto Expand Plot"]    = true,
-        ["Max Expansions"]      = 3,
-        ["Expand If Over"]      = 1500000,
-        ["Auto Replace Plants"] = false,
+        ["Keep Cash"]          = 15000,
+        ["Auto Expand Plot"]   = true,
+        ["Max Expansions"]     = 3,
+        ["Expand If Over"]     = 1500000,
+        ["Auto Replace Plants"] = true,
     },
     ["Never Sell"] = {
         ["By Mutation"] = {},
@@ -51,11 +43,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},
     },
     ["Pets"] = {
-        ["Buy"] = {
-             ["Deer"] = 6,
-             "Raccoon",
-             
-    },
+        ["Buy"]            = { "Raccoon", Deer = 6 },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
         ["Max Pet Slots"]  = 6,
@@ -63,48 +51,78 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Gear"] = {
         ["Auto Buy"]             = true,
         ["Keep Cash"]            = 15000,
-        ["Sprinkler Coverage"]   = "spread",
-        ["Place Sprinklers"]     = { ["Best"] = 6 },
-        ["Best Sprinkler Up To"] = "Uncommon Sprinkler",
-        ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Super Watering Can", "Super Sprinkler" },
+        ["Sprinkler Coverage"]   = "concentrate",
+        ["Place Sprinklers"]     = { ["best"] = 4 },
+        ["Best Sprinkler Up To"] = "Rare Sprinkler",
+        ["Keep Gear"]            = {},
+        ["Buy Gear"]             = { "Super Sprinkler","Legendary Sprinkler","Super Watering Can"},
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "Guinnesse17",
+        ["Auto Accept Gift"] = true,
+        ["Send To"]    = "phonkshc26",
+
+        ["Send Every"] = 0,
         ["Send"]       = {
-            { Item = "Rocket Pop", Count = 100 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
-            "Raccoon", "Bear",
-            "Super Watering Can", "Super Sprinkler"
+            "Moon Bloom", "Dragon's Breath", { Item = "Mega", Count = 30 },{ Item = "Rocket Pop", Count = 5 },
+            "Raccoon",
+            { Item = "Legendary Sprinkler", Count = 50 },
+            { Item = "Super Watering Can", Count = 5 },
+            { Item = "Super Sprinkler", Count = 4 },
         },
     },
     ["Misc"] = {
         ["Auto Return To Garden"] = true,
         ["Show Stats"]            = true,
+        ["Hide Game UI"]          = false,
+        ["Show Console"]          = false,
         ["Smart Travel"]          = true,
         ["Auto Daily Deal"]       = true,
-        ["Walk Speed"]            = 35,
-        ["Slide Speed"]           = 35,
+        ["Walk Speed"]            = 0,
+        ["Slide Speed"]           = 30,
         ["Fast Travel"]           = false,
         ["Teleport"]              = true,
     },
     ["Friends"] = {
         ["Auto Accept"] = false,
         ["Auto Send"]   = false,
+
+
+
+    },
+    ["Auction"] = {
+        ["Auto Buy"]   = false,
+        ["Buy"]        = {
+
+
+
+        },
+        ["Keep Cash"]  = 0,
+        ["Check Every"] = 0.2,
+        ["Max Tries"]  = 10,
+    },
+    ["Eggs"] = {
+        ["Auto Open"] = true,
+        ["Open"]      = {
+
+        },
     },
     ["Performance"] = {
-        ["FPS Cap"]              = 5,
+        ["FPS Cap"]              = 0,
         ["Low Graphics"]         = true,
         ["Remove Other Gardens"] = true,
         ["Hide Crop Visuals"]    = true,
+        ["Hide Fruit Visuals"]   = true,
+        ["Hide Players"]         = true,
     },
     ["Debug"] = {
         ["Log To File"] = true,
         ["Console"]     = true,
     },
 }
-script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
+script_key = "7ECF8FC9340DD1F67092AC7E1E16CC04"
+
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
