@@ -5,13 +5,19 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sell Every"]    = 40,
         ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
-        ["Wait For Mutation"] = { "Mushroom", "Bamboo" }
+        ["Wait For Mutation"] = { "Mushroom", "Bamboo", "Sunflower" }
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
         ["Plant Plan"]  = {
             ["Gold"] = 200,
             ["Rainbow"] = 200,
+            ["Green Bean"] = 100,
+            ["Acorn"] = 20,
+            ["Sunflower"] = 50,
+            ["Venus Fly Trap"] = 3,
+            ["Pomegranate"] = 3,
+            ["Poison Apple"] = 3,
         },
 
         ["Only Plant"]  = {},
@@ -20,8 +26,6 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Dragon's Breath"] = true,
             ["Hypno Bloom"] = true,
             ["Moon Bloom"] = true,
-            ["Venom Spitter"] = true,
-            ["Carrot"] = true,
         },
 
         ["Don't Buy"]   = {},
@@ -31,7 +35,7 @@ _G.GAGConfig = _G.GAGConfig or {
             "Mushroom",
             "Bamboo", 
         },
-        ["Shovel Up To"] = "Uncommon",
+        ["Shovel Up To"] = "Common",
         ["Buy Seeds"]    = { "Rocket Pop" = 100 },
     },
     ["Money"] = {
@@ -50,6 +54,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Buy"] = {
              ["Deer"] = 6,
              "Raccoon",
+             
     },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
@@ -59,8 +64,8 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Buy"]             = true,
         ["Keep Cash"]            = 15000,
         ["Sprinkler Coverage"]   = "spread",
-        ["Place Sprinklers"]     = { ["Best"] = 4 },
-        ["Best Sprinkler Up To"] = "Rare Sprinkler",
+        ["Place Sprinklers"]     = { ["Best"] = 6 },
+        ["Best Sprinkler Up To"] = "Uncommon Sprinkler",
         ["Keep Gear"]            = { ["Trowel"] = 1 },
         ["Buy Gear"]             = { "Super Watering Can", "Super Sprinkler" },
     },
@@ -69,10 +74,10 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = true,
-        ["Send To"]    = "phonkshc26",
+        ["Send To"]    = "Guinnesse17",
         ["Send"]       = {
-            { Item = "Rocket Pop", Count = 10 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
-            "Raccoon",
+            { Item = "Rocket Pop", Count = 100 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
+            "Raccoon", "Bear",
             "Super Watering Can", "Super Sprinkler"
         },
     },
