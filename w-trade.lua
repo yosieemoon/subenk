@@ -56,7 +56,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Buy"]             = true,
         ["Keep Cash"]            = 15000,
         ["Sprinkler Coverage"]   = "concentrate",
-        ["Place Sprinklers"]     = { ["best"] = 4 },
+        ["Place Sprinklers"]     = { ["best"] = 6 },
         ["Best Sprinkler Up To"] = "Rare Sprinkler",
         ["Keep Gear"]            = {},
         ["Buy Gear"]             = { "Super Sprinkler","Legendary Sprinkler","Super Watering Can"},
