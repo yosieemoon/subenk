@@ -71,9 +71,9 @@ _G.GAGConfig = _G.GAGConfig or {
 
         ["Send Every"] = 0,
         ["Send"]       = {
-            "Moon Bloom", "Dragon's Breath", { Item = "Mega", Count = 30 },{ Item = "Rocket Pop", Count = 5 },
+            "Moon Bloom", "Dragon's Breath", { Item = "Mega", Count = 15 },{ Item = "Rocket Pop", Count = 5 },
             "Raccoon",
-            { Item = "Legendary Sprinkler", Count = 50 },
+            { Item = "Legendary Sprinkler", Count = 20 },
             { Item = "Super Watering Can", Count = 5 },
             { Item = "Super Sprinkler", Count = 4 },
         },
